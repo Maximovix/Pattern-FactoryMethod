@@ -13,7 +13,7 @@ public abstract class Creator {
     private static char[] ArrayAlphabet = alphabet.toCharArray();
     private static char[] ArrayEncryption;
 
-    public void encriptionText(){
+    public void encryptionText(){
         init();
         Encryption encryption = createEncryption();
         ArrayEncryption = encryption.crypt(text, alphabet, ArrayAlphabet);
